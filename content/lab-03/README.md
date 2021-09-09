@@ -376,6 +376,8 @@ Click, create new and fill out the boxes as required:
 
 ![Deployment Platyform New](../../img/new.png?raw=true)
 
+`gcr.io/kuar-demo/kuard-amd64:blue`
+
 You will see the website spin as it deploys your website. We can observe the status in the terminal from where we ran our python flask webserver.
 
 Once your deployment is complete, you can click the image to open the deployed website.
