@@ -8,7 +8,7 @@ Once you're familiar with the Pulumi CLI, you'll build a web application that al
 
 The workshop is designed to be run from within GitPod. Hit the button below to open the repo in GitPod.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jaxxstorm/pulumi-automationapi-workshop)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/mattstratton/pulumi-automationapi-workshop)
 
 ## Prerequisites
 
