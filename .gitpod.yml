@@ -2,7 +2,7 @@ image:
   file: .gitpod/Dockerfile
 tasks:
   - name: Setup KubeConfig
-    command: mkdir -p ~/.kube && curl https://gist.githubusercontent.com/jaxxstorm/60c03b378a4acc636a9af9a6c6180bcd/raw/a851da195f5941243a87eeeef19823f67c009293/config -o ~/.kube/config
+    command: mkdir -p ~/.kube && curl https://gist.githubusercontent.com/mattstratton/57768f4e1678d0453f845c437cc0b616/raw/45bd5ec1d214380d496656484c31d3e17947bd79/config -o ~/.kube/config
   - name: Start Docker Daemon
     command: sudo docker-up &
   - before: "echo 'export PIP_USER=no' >> ~/.bashrc && export PIP_USER=no"
