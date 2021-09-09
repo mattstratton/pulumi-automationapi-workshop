@@ -305,6 +305,12 @@ lbriggs-4qe5xxgd-68d447c598-fp5pt   1/1     Running   0          3m6s
 lbriggs-4qe5xxgd-68d447c598-ljr7b   1/1     Running   0          3m6s
 ```
 
+You can also make use `curl` to view the deployment:
+
+```bash
+curl $(pulumi stack output url):8080
+```
+
 # Next Steps
 
 * [Build a Webapp](../lab-03/README.md)
